@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portofolio/static/css/main.e0c1299e.css",
+    "main.js": "/portofolio/static/js/main.cfc64b24.js",
+    "static/media/myPhoto2.png": "/portofolio/static/media/myPhoto2.dbbb187a5c1e274e3717.png",
+    "static/media/myphoto3.png": "/portofolio/static/media/myphoto3.d5f6fa269535c139010a.png",
+    "static/media/panitia.png": "/portofolio/static/media/panitia.94216b7d7312663b5507.png",
+    "static/media/2nd.png": "/portofolio/static/media/2nd.81150fd698436c4f2f5b.png",
+    "static/media/aslab-basisdata.png": "/portofolio/static/media/aslab-basisdata.e56b466b87024b8e70c8.png",
+    "static/media/aslab-sisdig.png": "/portofolio/static/media/aslab-sisdig.bb684676722b8adb4079.png",
+    "static/media/student-staff.png": "/portofolio/static/media/student-staff.b934fcb6742176287749.png",
+    "static/media/otakkanan.png": "/portofolio/static/media/otakkanan.a143b05ee9d61bb12d1d.png",
+    "index.html": "/portofolio/index.html",
+    "main.e0c1299e.css.map": "/portofolio/static/css/main.e0c1299e.css.map",
+    "main.cfc64b24.js.map": "/portofolio/static/js/main.cfc64b24.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0c1299e.css",
+    "static/js/main.cfc64b24.js"
+  ]
+}
