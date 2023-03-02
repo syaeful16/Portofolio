@@ -30,10 +30,10 @@ const MyExperience = () => {
     <section className='relative w-screen py-10 p-container font-poppins'>
       <div className=" bg-black/20 p-10 md:p-20 rounded-lg">
         <div className="flex justify-between items-center">
-          <h1 className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-bold text-5xl md:text-4xl xl:text-6xl md:w-[70%] xl:w-[80%] leading-normal md:leading-normal xl:leading-normal'>My Experience</h1>
-          <a className='text-white hidden md:flex items-center gap-5 hover:gap-10 ease-in-out duration-200 text-lg md:text-xl mt-12 w-max' href="http://">Let's talk <HiArrowNarrowRight/></a>
+          <h1 className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-bold text-4xl md:text-4xl xl:text-6xl md:w-[70%] xl:w-[80%] leading-normal md:leading-normal xl:leading-normal'>My Experience</h1>
+          <a className='text-[#FFD568] hidden md:flex items-center gap-5 hover:gap-10 ease-in-out duration-200 text-lg md:text-xl mt-12 w-max' href="http://">See more <HiArrowNarrowRight/></a>
         </div>
-        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-12 gap-y-24 pt-12">
+        <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-12 gap-y-24 pt-12">
           {myActivity.map((exp, index) => (
             <div key={index} className="">
               <img src={exp.img} alt={exp.title} className='w-full h-auto object-cover'/>
@@ -43,6 +43,7 @@ const MyExperience = () => {
             </div>
           ))}
         </div>
+        <a className='text-[#FFD568] md:hidden flex items-center gap-5 hover:gap-10 ease-in-out duration-200 text-lg md:text-xl mt-12 w-max' href="http://">See more <HiArrowNarrowRight/></a>
         {/* <button className='text-white bg-red-500' onClick={handleModal}>tets</button>
         {showModal ? <Modal/> : ''} */}
       </div>
