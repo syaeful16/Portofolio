@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/portofolio/static/css/main.7275afd0.css",
-    "main.js": "/portofolio/static/js/main.983e7264.js",
+    "main.css": "/portofolio/static/css/main.b47419a8.css",
+    "main.js": "/portofolio/static/js/main.00c7636a.js",
     "static/media/myPhoto2.png": "/portofolio/static/media/myPhoto2.dbbb187a5c1e274e3717.png",
     "static/media/myphoto3.png": "/portofolio/static/media/myphoto3.d5f6fa269535c139010a.png",
     "static/media/panitia.png": "/portofolio/static/media/panitia.94216b7d7312663b5507.png",
     "static/media/2nd.png": "/portofolio/static/media/2nd.81150fd698436c4f2f5b.png",
+    "static/media/rejosari.png": "/portofolio/static/media/rejosari.03de2f0c21c956f47b40.png",
     "static/media/aslab-basisdata.png": "/portofolio/static/media/aslab-basisdata.e56b466b87024b8e70c8.png",
     "static/media/aslab-sisdig.png": "/portofolio/static/media/aslab-sisdig.bb684676722b8adb4079.png",
+    "static/media/liedetection.png": "/portofolio/static/media/liedetection.167a937dde3f2bde509c.png",
     "static/media/student-staff.png": "/portofolio/static/media/student-staff.b934fcb6742176287749.png",
     "static/media/otakkanan.png": "/portofolio/static/media/otakkanan.a143b05ee9d61bb12d1d.png",
+    "static/media/estcam.png": "/portofolio/static/media/estcam.e3b7ca0ee5b142ed2b70.png",
+    "static/media/dosai.png": "/portofolio/static/media/dosai.7bc36d65f36c0168008d.png",
     "index.html": "/portofolio/index.html",
-    "main.7275afd0.css.map": "/portofolio/static/css/main.7275afd0.css.map",
-    "main.983e7264.js.map": "/portofolio/static/js/main.983e7264.js.map"
+    "main.b47419a8.css.map": "/portofolio/static/css/main.b47419a8.css.map",
+    "main.00c7636a.js.map": "/portofolio/static/js/main.00c7636a.js.map"
   },
   "entrypoints": [
-    "static/css/main.7275afd0.css",
-    "static/js/main.983e7264.js"
+    "static/css/main.b47419a8.css",
+    "static/js/main.00c7636a.js"
   ]
 }
