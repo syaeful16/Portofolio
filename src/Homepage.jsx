@@ -9,10 +9,16 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 
 const Homepage = () => {
+
+  const menuNav = [
+    {name: 'Project', linkto: 'MyProject'},
+    {name: 'Experience', linkto: 'MyExperience'}
+  ]
+
   return (
     <>
       <div className="">
-        <Navbar/>
+        <Navbar menu={menuNav}/>
         <Hero/>
         <Skills/>
         <Element name='MyProject' smooth>

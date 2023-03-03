@@ -1,11 +1,13 @@
 import React from 'react'
 import DesignerImg from '../assets/designer.png'
 import { HiArrowNarrowRight } from 'react-icons/hi';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const myProject = [
-  {title:'UI/UX Designer', img:DesignerImg, category:'Mobile ∙ Website', link:'#'},
-  {title:'Design Feed', img:DesignerImg, category:'Instagram', link:'#'},
-  {title:'Program', img:DesignerImg, category:'Web ∙ System', link:'#'},
+  {title:'UI/UX Designer', img:DesignerImg, category:'Mobile ∙ Website', link:'/project#uix'},
+  {title:'Design Feed', img:DesignerImg, category:'Instagram', link:'/project#feed'},
+  {title:'Program', img:DesignerImg, category:'Web ∙ System', link:'/project#program'},
 ]
 
 const MyProject = () => {
@@ -19,7 +21,7 @@ const MyProject = () => {
         </div>
         <div className='flex flex-col justify-center gap-6'>
           {myProject.map((project, index) => (
-            <a key={index} href={project.link} className="w-[100%] lg:w-[80%] h-28 rounded-lg gap-4 md:gap-6 flex justify-between p-4 border border-white/50 bg-white/5 hover:translate-x-6 hover:border-[#FFD568] ease-in-out duration-300">
+            <HashLink key={index} to={project.link} className="w-[100%] lg:w-[80%] h-28 rounded-lg gap-4 md:gap-6 flex justify-between p-4 border border-white/50 bg-white/5 hover:translate-x-6 hover:border-[#FFD568] ease-in-out duration-300">
               <img src={project.img} alt={project.name}/>
               <div className="flex flex-col font-poppins justify-center w-full">
                 <h1 className='text-white text-lg md:text-xl 2xl:text-2xl'>{project.title}</h1>
@@ -28,7 +30,7 @@ const MyProject = () => {
               <div className="h-full flex items-center float-left">
                 <HiArrowNarrowRight size={32} className='text-white'/>
               </div>
-            </a>
+            </HashLink>
           ))}
         </div>
       </div>
