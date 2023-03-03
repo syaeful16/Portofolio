@@ -10,7 +10,7 @@ const myProject = [
 
 const MyProject = () => {
   return (
-    <section className='w-screen py-32 p-container' id='my-project'>
+    <section className='w-screen py-32 p-container'>
       <div className="w-full h-full gap-10 md:gap-0 grid md:grid-cols-2">
         <div className="flex flex-col justify-center font-poppins">
           <h1 className='text-white font-bold text-5xl md:text-4xl xl:text-6xl md:w-[70%] xl:w-[80%] leading-normal md:leading-normal xl:leading-normal'>My Awesome Project</h1>
