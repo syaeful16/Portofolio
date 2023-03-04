@@ -86,7 +86,7 @@ const Projects = () => {
                 <h1 className='text-2xl font-bold mt-6'>Rejosari Village website</h1>
                 <p className='text-[#FFD568] text-base font-thin'>Website</p>
                 <p className='w-full mt-6 leading-loose text-justify'>
-                Predictable lie detection system in real time with camera or video input. I created the system using the Python programming language with the tensorflow library. The dataset is made from fake and honest videos that are used as pictures.
+                The Rejosari Village website is a website created for online community service. This website aims to make it easier for Rejosari Village residents to submit letters. In making it use the DataTables library and PHPMailer.
                 </p>
                 <ul className='w-full flex flex-wrap gap-2 mt-6'>
                   <li className='px-6 py-2 bg-slate-100/5 w-fit rounded-2xl text-[12px]'>HTML</li>

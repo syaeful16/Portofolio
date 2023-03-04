@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-scroll'
 import { HiMenuAlt3 } from 'react-icons/hi'
 import { MdOutlineClose } from 'react-icons/md'
+import { Link as Linkd } from 'react-router-dom';
 
 const Navbar = ({ menu }) => {
   const [ btnNavbar, setBtnNavbar ] = useState(false)
@@ -13,7 +14,7 @@ const Navbar = ({ menu }) => {
 
   return (
     <div className='w-full p-container p-6 font-poppins flex justify-between'>
-      <h1 className='text-gradient font-bold text-3xl'>SA.</h1>
+      <Linkd to='/portofolio' className='text-gradient font-bold text-3xl'>SA.</Linkd>
       <ul className='text-white hidden md:flex gap-10 font-extralight items-center'>
         {menu.map((menus, index) => (
           <li key={index} className='cursor-pointer'><Link to={menus.linkto} spy={true} smooth={true} offset={-20} duration={800}>{menus.name}</Link></li>
