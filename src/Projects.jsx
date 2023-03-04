@@ -5,6 +5,7 @@ import DosAI from './assets/program/dosai.png'
 import EstCam from './assets/program/estcam.png'
 import LieDetect from './assets/program/liedetection.png'
 import Rejosari from './assets/program/rejosari.png'
+import { projectUix }  from './components/DataProject'
 
 const Projects = () => {
 
@@ -18,8 +19,28 @@ const Projects = () => {
     <>
       <Navbar menu={navMenu}/>
       <div className='w-screen p-container font-poppins mt-12'>
-        <div className="w-full h-screen" id='uix'>
+        <div className="w-full pb-20" id='uix'>
           <h1 className='text-gradient w-fit text-5xl py-2 font-bold'>UI/UX Design</h1>
+          <div className="grid sm:grid-cols-2 2xl:grid-cols-3 gap-8 pt-6">
+            {/* <DataProject/> */}
+            {projectUix.map((data, index) => (
+              <div className="" key={index}>
+                <div className="relative h-max overflow-hidden group font-poppins">
+                  <img src={data.img} alt="Harvest Code App" className='rounded-lg w-full object-cover lg:group-hover:brightness-[.7] duration-300'/>
+                  <a href={data.link} rel='noreferrer' target='_blank' className="hidden xl:block absolute -top-10 group-hover:top-4 right-4 ease-in-out duration-300 px-4 py-2 rounded-md bg-[#FFD568] text-base">View Detail</a>
+                  <div className="w-full absolute z-10 hidden lg:flex flex-col backdrop-blur-xl bg-black/10 bottom-0 rounded-b-lg h-[0] group-hover:h-[60%] ease-in-out duration-300">
+                    <h1 className='text-2xl font-poppins font-bold p-5 text-[#FFD568]'>{data.title}</h1>
+                    <p className='text-base px-5 text-white'>{data.description}</p>
+                  </div>
+                  <div className="w-full lg:hidden flex flex-col pt-4 font-poppins">
+                    <h1 className='text-2xl font-bold py-2 text-[#FFD568]'>{data.title}</h1>
+                    <p className='text-base text-white font-thin'>{data.description}</p>
+                    <a href={data.link} rel='noreferrer' target='_blank' className='w-max px-3 py-1 rounded-md mt-4 border text-white border-[#FFD568] text-sm'>View Detail</a>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
         <div className="w-full h-screen" id='feed'>
           <h1 className='text-gradient text-5xl py-2 font-bold'>Design Feed Instagram</h1>
@@ -28,8 +49,8 @@ const Projects = () => {
           <div className='flex justify-between'>
             <h1 className='text-gradient text-5xl py-2 font-bold'>Program</h1>
             <div className='flex items-center text-white gap-6'>
-              <a href="https://github.com/syaeful16" target='_blank'><AiFillGithub size={28}/></a>
-              <a href="https://gitlab.com/syaeful16" target='_blank'><AiFillGitlab size={28}/></a>
+              <a href="https://github.com/syaeful16" target='_blank' rel='noreferrer'><AiFillGithub size={28}/></a>
+              <a href="https://gitlab.com/syaeful16" target='_blank' rel='noreferrer'><AiFillGitlab size={28}/></a>
             </div>
           </div>
           <div className="w-full grid grid-cols-3 mt-10 gap-10 gap-y-20">
@@ -54,7 +75,7 @@ const Projects = () => {
               <div className='px-2'>
                 <h1 className='text-2xl font-bold mt-6'>EST.Cameras.id</h1>
                 <p className='text-[#FFD568] text-base font-thin'>Website</p>
-                <p className='w-full mt-6 leading-loose text-justify'>
+                <p className='w-full mt-6 leading-loose'>
                 EST Cameras id is a website created for camera rentals, whether you want to rent or rent out your own camera. The website was created because the camera rental system is still rare and difficult to find in searches, so that gave rise to the idea of making the website.
                 </p>
                 <ul className='w-full flex flex-wrap gap-2 mt-6'>
@@ -71,7 +92,7 @@ const Projects = () => {
               <div className='px-2'>
                 <h1 className='text-2xl font-bold mt-6'>Detection Lie Real Time</h1>
                 <p className='text-[#FFD568] text-base font-thin'>System</p>
-                <p className='w-full mt-6 leading-loose text-justify'>
+                <p className='w-full mt-6 leading-loose'>
                 Predictable lie detection system in real time with camera or video input. I created the system using the Python programming language with the tensorflow library. The dataset is made from fake and honest videos that are used as pictures.
                 </p>
                 <ul className='w-full flex flex-wrap gap-2 mt-6'>
@@ -85,7 +106,7 @@ const Projects = () => {
               <div className='px-2'>
                 <h1 className='text-2xl font-bold mt-6'>Rejosari Village website</h1>
                 <p className='text-[#FFD568] text-base font-thin'>Website</p>
-                <p className='w-full mt-6 leading-loose text-justify'>
+                <p className='w-full mt-6 leading-loose'>
                 The Rejosari Village website is a website created for online community service. This website aims to make it easier for Rejosari Village residents to submit letters. In making it use the DataTables library and PHPMailer.
                 </p>
                 <ul className='w-full flex flex-wrap gap-2 mt-6'>
