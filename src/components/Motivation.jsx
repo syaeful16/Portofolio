@@ -9,7 +9,7 @@ const Motivation = () => {
           <img src={Myphoto3} alt="" className='w-auto scale-75 rounded-md' data-aos='fade-right' data-aos-delay='300'/>
         </div>
         <div className="flex flex-col justify-center items-center lg:items-baseline" data-aos='fade-left' data-aos-delay='300'>
-          <h1 className='w-[80%] text-5xl text-center md:text-left text-white leading-normal'><span className='font-bold font-montserrat text-7xl'>“</span> Success and failure are both parts of life. Both are temporary.</h1>
+          <h1 className='w-[80%] text-3xl xl:text-5xl text-center md:text-left text-white leading-normal xl:leading-normal'><span className='font-bold font-montserrat text-5xl xl:text-7xl'>“</span> Success and failure are both parts of life. Both are temporary.</h1>
           <p className='text-xl text-[#FFD568] mt-6 font-extralight'>Shah Rukh Khan</p>
         </div>
       </div>
