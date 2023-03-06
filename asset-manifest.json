@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portofolio/static/css/main.92ecf350.css",
-    "main.js": "/portofolio/static/js/main.ee9cef88.js",
+    "main.css": "/portofolio/static/css/main.bf3801a4.css",
+    "main.js": "/portofolio/static/js/main.b5c3f92f.js",
     "static/media/image5.png": "/portofolio/static/media/image5.e2ac5a8dc415d1735859.png",
     "static/media/image14.png": "/portofolio/static/media/image14.0344dea2b8c2ffbd35e3.png",
     "static/media/myPhoto2.png": "/portofolio/static/media/myPhoto2.dbbb187a5c1e274e3717.png",
@@ -16,14 +16,18 @@
     "static/media/image4.png": "/portofolio/static/media/image4.c0b975afd7611a409181.png",
     "static/media/aslab-basisdata.png": "/portofolio/static/media/aslab-basisdata.e56b466b87024b8e70c8.png",
     "static/media/aslab-sisdig.png": "/portofolio/static/media/aslab-sisdig.bb684676722b8adb4079.png",
+    "static/media/serkom.png": "/portofolio/static/media/serkom.14581c617d586e026eea.png",
     "static/media/image10.png": "/portofolio/static/media/image10.2b39fcf88f2b77eef285.png",
     "static/media/image3.png": "/portofolio/static/media/image3.41079656363be59f8b1d.png",
     "static/media/Harvest Code App.png": "/portofolio/static/media/Harvest Code App.76a6f22a471729a7f9e6.png",
+    "static/media/argamelan.png": "/portofolio/static/media/argamelan.d2b10024895a0cd3a644.png",
     "static/media/image11.png": "/portofolio/static/media/image11.7e9d5c1d8abf116c3e6e.png",
     "static/media/liedetection.png": "/portofolio/static/media/liedetection.167a937dde3f2bde509c.png",
     "static/media/student-staff.png": "/portofolio/static/media/student-staff.b934fcb6742176287749.png",
     "static/media/otakkanan.png": "/portofolio/static/media/otakkanan.a143b05ee9d61bb12d1d.png",
+    "static/media/webinar.png": "/portofolio/static/media/webinar.731fa8e1f6c30462f51b.png",
     "static/media/image8.png": "/portofolio/static/media/image8.07616c4cd3e0949e7ccf.png",
+    "static/media/aslab-pbo.png": "/portofolio/static/media/aslab-pbo.b241751bbc4408239f73.png",
     "static/media/image6.png": "/portofolio/static/media/image6.953b07f2d3b699e5d52a.png",
     "static/media/image7.png": "/portofolio/static/media/image7.ce607e092f511eabf936.png",
     "static/media/estcam.png": "/portofolio/static/media/estcam.e3b7ca0ee5b142ed2b70.png",
@@ -32,11 +36,11 @@
     "static/media/image9.png": "/portofolio/static/media/image9.b3dbeb6e8b88f2231dbf.png",
     "static/media/dosai.png": "/portofolio/static/media/dosai.7bc36d65f36c0168008d.png",
     "index.html": "/portofolio/index.html",
-    "main.92ecf350.css.map": "/portofolio/static/css/main.92ecf350.css.map",
-    "main.ee9cef88.js.map": "/portofolio/static/js/main.ee9cef88.js.map"
+    "main.bf3801a4.css.map": "/portofolio/static/css/main.bf3801a4.css.map",
+    "main.b5c3f92f.js.map": "/portofolio/static/js/main.b5c3f92f.js.map"
   },
   "entrypoints": [
-    "static/css/main.92ecf350.css",
-    "static/js/main.ee9cef88.js"
+    "static/css/main.bf3801a4.css",
+    "static/js/main.b5c3f92f.js"
   ]
 }
