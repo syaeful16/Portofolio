@@ -31,7 +31,7 @@ const logoImage = [
 
 const Skills = () => {
   return (
-    <div className='w-full my-10 flex flex-col justify-center items-center p-8 md:p-12 backdrop-blur-md bg-white/5'>
+    <div className='w-full my-10 flex flex-col justify-center items-center p-8 md:p-12 backdrop-blur-md bg-white/5' data-aos='fade-in' data-aos-delay='200'>
       <div className="grid grid-cols-3 gap-4 md:hidden">
         {logoImage.map((image, index) => (
           <div key={index} className="">

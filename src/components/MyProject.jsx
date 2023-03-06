@@ -13,7 +13,7 @@ const myProject = [
 const MyProject = () => {
   return (
     <section className='w-screen py-32 p-container'>
-      <div className="w-full h-full gap-10 md:gap-0 grid md:grid-cols-2">
+      <div className="w-full h-full gap-10 md:gap-0 grid md:grid-cols-2" data-aos='fade-up' data-aos-delay='300'>
         <div className="flex flex-col justify-center font-poppins">
           <h1 className='text-white font-bold text-5xl md:text-4xl xl:text-6xl md:w-[70%] xl:w-[80%] leading-normal md:leading-normal xl:leading-normal'>My Awesome Project</h1>
           <p className='w-[100%] sm:w-[85%] xl:w-[76%] leading-8 lg:leading-[2.5rem] xl:leading-loose pt-8 text-white sm:text-md xl:text-lg font-extralight'>The following is a project that I have made with the skills I have so far. I am a person who likes to design and create simple programs. This can produce several designs such as UI / UX designs and Instagram feeds. Besides that, it also produces a program in the form of a website and an AI-based system.</p>

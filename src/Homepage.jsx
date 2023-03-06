@@ -7,6 +7,8 @@ import MyExperience from "./components/MyExperience";
 import MyProject from "./components/MyProject";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Homepage = () => {
 
@@ -14,6 +16,11 @@ const Homepage = () => {
     {name: 'Project', linkto: 'MyProject'},
     {name: 'Experience', linkto: 'MyExperience'}
   ]
+
+  Aos.init({
+    duration: 1600,
+    offset: 0
+  })
 
   return (
     <>
