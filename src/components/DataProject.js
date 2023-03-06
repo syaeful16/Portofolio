@@ -24,6 +24,7 @@ import DosAI from '../assets/program/dosai.png'
 import EstCam from '../assets/program/estcam.png'
 import LieDetect from '../assets/program/liedetection.png'
 import Rejosari from '../assets/program/rejosari.png'
+import ArGamelan from '../assets/program/argamelan.png'
 
 export const projectUix = [
   {
@@ -77,13 +78,34 @@ export const projectProgram = [
     img: EstCam,
     category: 'Website', 
     description: "EST Cameras id is a website created for camera rentals, whether you want to rent or rent out your own camera. The website was created because the camera rental system is still rare and difficult to find in searches, so that gave rise to the idea of making the website.",
-    lang: ['HTML', 'CSS', 'JavaScript', 'Python']
+    lang: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL']
   },
   {
-    title: 'DoS.AI', 
-    img: DosAI,
+    title: 'Si-Lang', 
+    img: Silang,
     category: 'Website', 
-    description: "DoS.AI is a website that is used to detect strawberry plant diseases based on Artificial Intelligence. The purpose of this website is to make it easier to detect strawberry plant diseases so that experts don't need to determine these plant diseases.",
-    lang: ['HTML', 'CSS', 'JavaScript', 'Python']
+    description: "Si-Lang is a web-based SIBI sign language learning platform that is integrated with Artificial Intelligence. This platform can detect hand movements according to the SIBI sign language alphabet in real-time.",
+    lang: ['HTML', 'CSS', 'Python', 'Flask', 'Tensorflow']
+  },
+  {
+    title: 'Detection Lie Real Time', 
+    img: LieDetect,
+    category: 'System Python', 
+    description: "Predictable lie detection system in real time with camera or video input. I created the system using the Python programming language with the tensorflow library. The dataset is made from fake and honest videos that are used as pictures.",
+    lang: ['Python', 'Tensorflow']
+  },
+  {
+    title: 'Rejosari Village website', 
+    img: Rejosari,
+    category: 'Website', 
+    description: "The Rejosari Village website is a website created for online community service. This website aims to make it easier for Rejosari Village residents to submit letters. In making it use the DataTables library and PHPMailer.",
+    lang: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL']
+  },
+  {
+    title: 'Gamelan Augmented Reality', 
+    img: ArGamelan,
+    category: 'Mobile Apps', 
+    description: "The Rejosari Village website is a website created for online community service. This website aims to make it easier for Rejosari Village residents to submit letters. In making it use the DataTables library and PHPMailer.",
+    lang: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL']
   },
 ]

@@ -1,5 +1,4 @@
 import React from 'react'
-import Image2 from '../assets/feed/image2.png'
 import { IoIosClose } from 'react-icons/io'
 
 const ModalImg = ({modal, image}) => {
