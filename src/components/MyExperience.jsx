@@ -16,7 +16,7 @@ import { experience } from './Experience';
 const MyExperience = () => {
 
   return (
-    <section className='relative w-screen py-10 p-container font-poppins'>
+    <section className='relative w-screen p-container font-poppins'>
       <div className=" bg-black/20 p-10 md:p-20 2xl:p-32 rounded-lg">
         <div className="flex justify-between items-center">
           <h1 className='text-gradient font-bold text-5xl md:text-4xl xl:text-6xl md:w-[70%] xl:w-[80%] leading-normal md:leading-normal xl:leading-normal'>My Experience</h1>
@@ -24,7 +24,7 @@ const MyExperience = () => {
         </div>
         <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-12 gap-y-24 pt-12">
           {experience.map((exp, index) => (
-            <div>
+            <>
               { index < 6 ? 
               <div key={index} className="">
                 <img src={exp.img} alt={exp.title} className='w-full h-auto object-cover'/>
@@ -33,7 +33,7 @@ const MyExperience = () => {
                 <p className='text-white text-base font-poppins pt-10 font-extralight leading-relaxed'>{exp.description}</p>
               </div>
               : ''}
-            </div>
+            </>
           ))}
         </div>
         <a className='text-[#FFD568] md:hidden flex items-center gap-5 hover:gap-10 ease-in-out duration-200 text-lg md:text-xl mt-12 w-max' href="http://">See more <HiArrowNarrowRight/></a>

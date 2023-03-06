@@ -9,7 +9,7 @@ const AllExperience = () => {
       <Navbar menu={[]}/>
       <div className="p-container font-poppins mt-12 w-full">
         <div className="w-full pb-20" id='uix'>
-          <h1 className='text-gradient w-fit text-5xl py-2 font-bold pb-14'>UI/UX Design</h1>
+          <h1 className='text-gradient w-fit text-5xl py-2 font-bold pb-14'>My Experience</h1>
           <div className="grid sm:grid-cols-2 2xl:grid-cols-3 gap-y-24 gap-10 pt-10 bg-black/20 p-10 md:p-20 2xl:p-32 rounded-lg">
             {/* <DataProject/> */}
             {experience.map((data, index) => (
