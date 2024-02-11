@@ -11,10 +11,10 @@ function App() {
     <BrowserRouter>
       <ScrollToTop>
         <Routes>
-          <Route path="/portofolio" element={<Homepage/>}></Route>
-          <Route path='/contact' element={<Contact/>}/>
-          <Route path='/project' element={<Projects/>}/>
-          <Route path='/experience' element={<AllExperience/>}/>
+          <Route path="/portofolio/" element={<Homepage/>}></Route>
+          <Route path='/contact/' element={<Contact/>}/>
+          <Route path='/project/' element={<Projects/>}/>
+          <Route path='/experience/' element={<AllExperience/>}/>
         </Routes>
       </ScrollToTop>
     </BrowserRouter>
